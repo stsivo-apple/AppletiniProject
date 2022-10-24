@@ -8,22 +8,31 @@
 import SwiftUI
 
 struct ContentView: View {
-    var songs: [Song] = GetSongs()
+    var songs: [Song] = Song.getSongs()
     var body: some View {
         
         NavigationStack{
-            VStack(alignment: .leading){
-                Text("How are you feeling?").fontWeight(.bold).font(.title).multilineTextAlignment(.leading).padding([.leading, .bottom])
+            VStack(alignment: .leading, spacing: 1){
+                Text("How are you feeling?")
+                .fontWeight(.bold)
+                .font(.title)
+                .multilineTextAlignment(.leading)
+                .padding([.leading, .bottom])
                 ButtonsRowView()
+                Text("Featured songs")
+                .fontWeight(.bold)
+                .font(.title)
+                .multilineTextAlignment(.leading)
+                .padding()
                 
-                Text("Featured songs").fontWeight(.bold).font(.title).multilineTextAlignment(.leading).padding()
                 ScrollView(.horizontal, showsIndicators: false){
                     HStack(spacing: 20){
                         ForEach(songs) { song in
                             FeaturedSongCard(song: song)
+                                .frame(height: 210)
                         }
                     }
-                    .padding(.leading)
+                    .padding(.horizontal)
                 }
                 .navigationTitle("Hello")
             }
@@ -34,6 +43,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView().navigationTitle("Hello")
+        ContentView()
     }
 }

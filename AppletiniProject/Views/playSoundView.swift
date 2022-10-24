@@ -30,12 +30,10 @@ struct playSoundView: View {
                 Image(song.image)
                 
                     .resizable()
-                    .frame(width: 160 , height: 160)
-                    .imageScale(.large)
-                    .foregroundColor(.accentColor)
-                    .shadow(radius: 50)
-                    .padding(.vertical,5)
-                    .cornerRadius(44)
+                    .aspectRatio(contentMode: .fit)
+                    .frame(height: 160)
+                    .cornerRadius(8)
+                    .frame(maxWidth: .infinity)
                 
                 
                 Text(song.artist)

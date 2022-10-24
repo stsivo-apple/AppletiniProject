@@ -8,86 +8,242 @@
 import SwiftUI
 
 struct ButtonsRowView: View {
-    var space:CGFloat = 25
+    var space:CGFloat = 17
+    let h:CGFloat = 90
+    let w:CGFloat = 110
     var body: some View {
         VStack {
             HStack(alignment: .center, spacing: space){
                 Button(action: { }) {
-                    Text("RED")
+                    
                 }
-                .frame(width: 100, height: 60)
-                .foregroundColor(.white)
-                .background(Color(UIColor.systemRed))
-                .cornerRadius(10)
-                
-                Button(action: {}) {
-                    Text("ORANGE")
-                }
-                .frame(width: 100, height: 60)
-                .foregroundColor(.white)
-                .background(Color(UIColor.systemOrange))
-                .cornerRadius(10)
-                
-                Button(action: {}) {
-                    Text("YELLOW")
-                }
-                .frame(width: 100, height: 60)
-                .foregroundColor(.white)
-                .background(Color(UIColor.systemYellow))
-                .cornerRadius(10)
-            }
-            
-            HStack(alignment: .center, spacing: space){
-                Button(action: { }) {
-                    Text("GREEN")
-                }
-                .frame(width: 100, height: 60)
-                .foregroundColor(.white)
-                .background(Color(UIColor.systemGreen))
-                .cornerRadius(10)
-                
-                Button(action: {}) {
-                    Text("BLUE")
-                }
-                .frame(width: 100, height: 60)
-                .foregroundColor(.white)
-                .background(Color(UIColor.systemBlue))
-                .cornerRadius(10)
-                
-                Button(action: {}) {
-                    Text("PINK")
-                }
-                .frame(width: 100, height: 60)
-                .foregroundColor(.white)
-                .background(Color(UIColor.systemPink))
-                .cornerRadius(10)
-            }
-            .padding(20)
-            
-            HStack(alignment: .center, spacing: space){
-                Button(action: { }) {
-                    Text("PURPLE")
-                }
-                .frame(width: 100, height: 60)
-                .foregroundColor(.white)
-                .background(Color(UIColor.systemPurple))
-                .cornerRadius(10)
-                
-                Button(action: {}) {
-                    Text("BLACK")
-                }
-                .frame(width: 100, height: 60)
-                .foregroundColor(.white)
-                .background(.black)
-                .cornerRadius(10)
-                
-                Button(action: {}) {
-                    Text("WHITE")
-                }
-                .frame(width: 100, height: 60)
+                .frame(width: w, height: h)
                 .foregroundColor(.black)
-                .background(Color(UIColor.systemGray6))
+                .background(Color(UIColor.white))
                 .cornerRadius(10)
+                .shadow(color: Color.black.opacity(0.2), radius: 4)
+                .overlay(
+                    Text("RED")
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .frame(maxHeight: .infinity, alignment: .bottom)
+                    .font(.body)
+                    .fontWeight(.bold)
+                    .padding(10)
+                )
+                .overlay(
+                    Rectangle()
+                    .frame(width: 90, height: 40)
+                    .frame(alignment: .top)
+                    .foregroundColor(Color(UIColor.systemRed))
+                    .cornerRadius(3)
+                    .padding(.bottom, 27)
+                )
+                
+                Button(action: { }) {
+                    
+                }
+                .frame(width: w, height: h)
+                .foregroundColor(.black)
+                .background(Color(UIColor.white))
+                .cornerRadius(10)
+                .shadow(color: Color.black.opacity(0.2), radius: 4)
+                .overlay(
+                    Text("ORANGE")
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .frame(maxHeight: .infinity, alignment: .bottom)
+                    .font(.body)
+                    .fontWeight(.bold)
+                    .padding(10)
+                )
+                .overlay(
+                    Rectangle()
+                    .frame(width: 90, height: 40)
+                    .frame(alignment: .top)
+                    .foregroundColor(Color(UIColor.systemOrange))
+                    .cornerRadius(3)
+                    .padding(.bottom, 27)
+                )
+                
+                Button(action: { }) {
+                    
+                }
+                .frame(width: w, height: h)
+                .foregroundColor(.black)
+                .background(Color(UIColor.white))
+                .cornerRadius(10)
+                .shadow(color: Color.black.opacity(0.2), radius: 4)
+                .overlay(
+                    Text("YELLOW")
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .frame(maxHeight: .infinity, alignment: .bottom)
+                    .font(.body)
+                    .fontWeight(.bold)
+                    .padding(10)
+                )
+                .overlay(
+                    Rectangle()
+                    .frame(width: 90, height: 40)
+                    .frame(alignment: .top)
+                    .foregroundColor(Color(UIColor.systemYellow))
+                    .cornerRadius(3)
+                    .padding(.bottom, 27)
+                )
+            }
+            
+            
+            HStack(alignment: .center, spacing: space){
+                Button(action: { }) {
+                    
+                }
+                .frame(width: w, height: h)
+                .foregroundColor(.black)
+                .background(Color(UIColor.white))
+                .cornerRadius(10)
+                .shadow(color: Color.black.opacity(0.2), radius: 4)
+                .overlay(
+                    Text("GREEN")
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .frame(maxHeight: .infinity, alignment: .bottom)
+                    .font(.body)
+                    .fontWeight(.bold)
+                    .padding(10)
+                )
+                .overlay(
+                    Rectangle()
+                    .frame(width: 90, height: 40)
+                    .frame(alignment: .top)
+                    .foregroundColor(Color(UIColor.systemGreen))
+                    .cornerRadius(3)
+                    .padding(.bottom, 27)
+                )
+                
+                Button(action: { }) {
+                    
+                }
+                .frame(width: w, height: h)
+                .foregroundColor(.black)
+                .background(Color(UIColor.white))
+                .cornerRadius(10)
+                .shadow(color: Color.black.opacity(0.2), radius: 4)
+                .overlay(
+                    Text("BLUE")
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .frame(maxHeight: .infinity, alignment: .bottom)
+                    .font(.body)
+                    .fontWeight(.bold)
+                    .padding(10)
+                )
+                .overlay(
+                    Rectangle()
+                    .frame(width: 90, height: 40)
+                    .frame(alignment: .top)
+                    .foregroundColor(Color(UIColor.systemBlue))
+                    .cornerRadius(3)
+                    .padding(.bottom, 27)
+                )
+                
+                Button(action: { }) {
+                    
+                }
+                .frame(width: w, height: h)
+                .foregroundColor(.black)
+                .background(Color(UIColor.white))
+                .cornerRadius(10)
+                .shadow(color: Color.black.opacity(0.2), radius: 4)
+                .overlay(
+                    Text("PINK")
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .frame(maxHeight: .infinity, alignment: .bottom)
+                    .font(.body)
+                    .fontWeight(.bold)
+                    .padding(10)
+                )
+                .overlay(
+                    Rectangle()
+                    .frame(width: 90, height: 40)
+                    .frame(alignment: .top)
+                    .foregroundColor(Color(UIColor.systemPink))
+                    .cornerRadius(3)
+                    .padding(.bottom, 27)
+                )
+            }
+            .padding(10)
+            
+            HStack(alignment: .center, spacing: space){
+                Button(action: { }) {
+                    
+                }
+                .frame(width: w, height: h)
+                .foregroundColor(.black)
+                .background(Color(UIColor.white))
+                .cornerRadius(10)
+                .shadow(color: Color.black.opacity(0.2), radius: 4)
+                .overlay(
+                    Text("PURPLE")
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .frame(maxHeight: .infinity, alignment: .bottom)
+                    .font(.body)
+                    .fontWeight(.bold)
+                    .padding(10)
+                )
+                .overlay(
+                    Rectangle()
+                    .frame(width: 90, height: 40)
+                    .frame(alignment: .top)
+                    .foregroundColor(Color(UIColor.systemPurple))
+                    .cornerRadius(3)
+                    .padding(.bottom, 27)
+                )
+                
+                Button(action: { }) {
+                    
+                }
+                .frame(width: w, height: h)
+                .foregroundColor(.black)
+                .background(Color(UIColor.white))
+                .cornerRadius(10)
+                .shadow(color: Color.black.opacity(0.2), radius: 4)
+                .overlay(
+                    Text("BLACK")
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .frame(maxHeight: .infinity, alignment: .bottom)
+                    .font(.body)
+                    .fontWeight(.bold)
+                    .padding(10)
+                )
+                .overlay(
+                    Rectangle()
+                    .frame(width: 90, height: 40)
+                    .frame(alignment: .top)
+                    .foregroundColor(.black)
+                    .cornerRadius(3)
+                    .padding(.bottom, 27)
+                )
+                
+                Button(action: { }) {
+                    
+                }
+                .frame(width: w, height: h)
+                .foregroundColor(.black)
+                .background(Color(UIColor.white))
+                .cornerRadius(10)
+                .shadow(color: Color.black.opacity(0.2), radius: 4)
+                .overlay(
+                    Text("WHITE")
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .frame(maxHeight: .infinity, alignment: .bottom)
+                    .font(.body)
+                    .fontWeight(.bold)
+                    .padding(10)
+                )
+                .overlay(
+                    Rectangle()
+                    .frame(width: 90, height: 40)
+                    .frame(alignment: .top)
+                    .foregroundColor(Color(UIColor.systemGray6))
+                    .cornerRadius(3)
+                    .padding(.bottom, 27)
+                )
             }
         }
     }
