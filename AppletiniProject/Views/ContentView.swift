@@ -8,19 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var shouldShowOnboarding:Bool = true
     var songs: [Song] = Song.getSongs()
+    
     var body: some View {
         
         NavigationStack{
             VStack(alignment: .leading, spacing: 1){
                 Text("How are you feeling?")
-                .fontWeight(.bold)
+                .bold()
                 .font(.title)
                 .multilineTextAlignment(.leading)
                 .padding([.leading, .bottom])
                 ButtonsRowView()
+                .frame(height: 320)
                 Text("Featured songs")
-                .fontWeight(.bold)
+                .bold()
                 .font(.title)
                 .multilineTextAlignment(.leading)
                 .padding()
@@ -34,9 +37,11 @@ struct ContentView: View {
                     }
                     .padding(.horizontal)
                 }
-                .navigationTitle("Hello")
+                .navigationTitle("Hello " + UIDevice.current.name)
             }
-        }
+        }.fullScreenCover(isPresented: $shouldShowOnboarding, content: {
+            OnboardingView(shouldShowOnboarding: $shouldShowOnboarding)
+        })
     }
 }
 

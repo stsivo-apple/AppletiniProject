@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B8B14F02906E6F400E8767B /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8B14EF2906E6F400E8767B /* OnboardingView.swift */; };
 		7BA13F1229015ADA0021087F /* AppletiniProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA13F1129015ADA0021087F /* AppletiniProjectApp.swift */; };
 		7BA13F1429015ADA0021087F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA13F1329015ADA0021087F /* ContentView.swift */; };
 		7BA13F1629015ADB0021087F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BA13F1529015ADB0021087F /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B8B14EF2906E6F400E8767B /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		7BA13F0E29015ADA0021087F /* AppletiniProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppletiniProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BA13F1129015ADA0021087F /* AppletiniProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppletiniProjectApp.swift; sourceTree = "<group>"; };
 		7BA13F1329015ADA0021087F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -68,7 +70,6 @@
 				7BA13F2029018DD30021087F /* Views */,
 				7BA13F1F29018DCB0021087F /* Models */,
 				7BA13F1129015ADA0021087F /* AppletiniProjectApp.swift */,
-				7BA13F1329015ADA0021087F /* ContentView.swift */,
 				7BA13F1529015ADB0021087F /* Assets.xcassets */,
 				7BA13F1729015ADB0021087F /* Preview Content */,
 			);
@@ -97,7 +98,9 @@
 			children = (
 				FA7F315929044BCC007E20F7 /* playSoundView.swift */,
 				7BA13F2129018E130021087F /* FeaturedSongCard.swift */,
+				7BA13F1329015ADA0021087F /* ContentView.swift */,
 				7BA13F2F2901BA3B0021087F /* ButtonsRowView.swift */,
+				7B8B14EF2906E6F400E8767B /* OnboardingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				7BA13F2429018E2E0021087F /* Song.swift in Sources */,
 				7BA13F1429015ADA0021087F /* ContentView.swift in Sources */,
 				7BA13F2629019F0E0021087F /* SongColor.swift in Sources */,
+				7B8B14F02906E6F400E8767B /* OnboardingView.swift in Sources */,
 				7BA13F2229018E130021087F /* FeaturedSongCard.swift in Sources */,
 				7BA13F1229015ADA0021087F /* AppletiniProjectApp.swift in Sources */,
 			);
