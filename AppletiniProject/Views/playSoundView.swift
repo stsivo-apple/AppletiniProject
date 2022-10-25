@@ -12,7 +12,14 @@ import AVFoundation
 
 struct playSoundView: View {
     
-    var color : Color = Color(uiColor: .systemGray6) // need this because the color I use isn't of Color type
+    @State var toggleRecordStop = "Record"
+    @State var scaleBigger = 0.5
+    @State var scaleMedium = 0.5
+    @State var scaleSmaller = 0.5
+    
+    //@State var counter = Text("0:00")
+    
+    var color : Color = Color(uiColor: .systemGray6)// need this because the color I use isn't of Color type
     @State var isPlaying : Bool = false // need this to make change the play button  in pause button
     var song : Song // need this to adapt the elements' screen to the song
     @State var mediaplayer: AVAudioPlayer?
@@ -20,21 +27,65 @@ struct playSoundView: View {
     var body: some View {
         ZStack{
             
-           LinearGradient(colors: [song.songColor.sgrad, song.songColor.egrad], startPoint: .top, endPoint: .center
+         /*  LinearGradient(colors: [song.songColor.sgrad, song.songColor.egrad], startPoint: .top, endPoint: .center
             )
+            
                 .ignoresSafeArea()
+          */
             
             VStack {
                 
                 
+             /* counter
+                    .font(.system(size: 30))
+                    .fontWeight(.ultraLight)
+                */
+                
+                
+            ZStack{
+                    Rectangle()
+                        .frame(width: 5000, height: 50, alignment: .center)
+                        .scaleEffect (CGFloat(scaleBigger))
+                        .foregroundColor(song.songColor.egrad)
+                        .animation(Animation.easeOut(duration: 1).repeatForever(autoreverses: true))
+                    
+                /*Rectangle()
+                        .frame(width: 200, height: 200, alignment: .center)
+                        .scaleEffect(CGFloat(scaleMedium))
+                        .foregroundColor(Color(.systemGray5))
+                        .animation(Animation.default.repeatForever(autoreverses: true))
+                    
+                Rectangle()
+                        .frame(width: 100, height: 100, alignment: .center)
+                        .foregroundColor(Color(.systemRed))
+                        .overlay(Text(toggleRecordStop))
+                 */
+                
                 Image(song.image)
+                 
+                     .resizable()
+                     .aspectRatio(contentMode: .fit)
+                     .frame(height: 100)
+                     .cornerRadius(8)
+                     .frame(maxWidth: .infinity)
+                 
                 
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(height: 160)
-                    .cornerRadius(8)
-                    .frame(maxWidth: .infinity)
+                } //end Zstack rectangle
+                /*
+                .onTapGesture {
+                    toggleRecordStop = "Stop"
+                    scaleBigger = 1
+                    scaleMedium = 1
+                    scaleSmaller = 1
                 
+                   /* counter  = Text(Date().addingTimeInterval(0.0), style: .timer)
+                        .font(.system(size: 64))
+                        .fontWeight(.ultraLight)
+                    */
+                }
+
+               
+               */
                 
                 Text(song.artist)
                     .font(.system(size: 24))
@@ -80,6 +131,10 @@ struct playSoundView: View {
                         if isPlaying == false {
                           isPlaying = true
                           playMusic()
+                          scaleBigger = 1
+                          scaleMedium = 1
+                          scaleSmaller = 1
+                        
                         
                         }
                         else{
@@ -112,18 +167,18 @@ struct playSoundView: View {
                 }
                     .padding(.bottom, 20)
                 
-                Text("This song is simple, safe, filled with energy and to bring a smile to your face. And it is everything that pop culture is all about ") // i need the variable
+               /* Text("This song is simple, safe, filled with energy and to bring a smile to your face. And it is everything that pop culture is all about ") // i need the variable
                     .font(.system(size: 24))
                     .foregroundColor(song.songColor.textColor)
                     .multilineTextAlignment(.center)
                     
-               
+               */
                 
             }
             .padding()
         }
     }
-    
+
     func playMusic() {
         
         let path = Bundle.main.path(forResource: "\(song.title).mp3", ofType:nil)!
