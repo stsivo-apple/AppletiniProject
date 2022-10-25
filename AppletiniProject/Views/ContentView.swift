@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var shouldShowOnboarding:Bool = true
+    //@AppStorage("shouldShowOnboarding") var shouldShowOnboarding:Bool = true
+    //@State var shouldShowOnboarding:Bool = true
     var songs: [Song] = Song.getSongs()
     
     var body: some View {
@@ -37,11 +38,12 @@ struct ContentView: View {
                     }
                     .padding(.horizontal)
                 }
-                .navigationTitle("Hello " + UIDevice.current.name)
+                .navigationTitle("Hello " + (UserDefaults.standard.string(forKey: "username") ?? "User"))
             }
-        }.fullScreenCover(isPresented: $shouldShowOnboarding, content: {
+        }
+        /*.fullScreenCover(isPresented: $shouldShowOnboarding, content: {
             OnboardingView(shouldShowOnboarding: $shouldShowOnboarding)
-        })
+        })*/
     }
 }
 

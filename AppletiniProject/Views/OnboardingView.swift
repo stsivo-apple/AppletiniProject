@@ -9,6 +9,7 @@ import SwiftUI
 
 struct OnboardingView: View {
     @Binding var shouldShowOnboarding:Bool
+    @AppStorage("username") var username = "username"
     
     var body: some View {
         TabView{
@@ -53,7 +54,7 @@ struct PageView: View {
     let subtitle:String
     let imageName:String
     let showDismissButton:Bool
-    //@State static var username:String = "User"
+    @AppStorage("username") var username:String = ""
     @Binding var shouldShowOnboarding:Bool
     
     var body: some View {
@@ -75,6 +76,10 @@ struct PageView: View {
                 .padding()
             
             if showDismissButton {
+                TextField("Username", text: $username)
+                    .textFieldStyle(.roundedBorder)
+                    .textInputAutocapitalization(.never)
+                    .padding()
                 Button {
                     shouldShowOnboarding.toggle()
                 } label: {
@@ -89,6 +94,7 @@ struct PageView: View {
         }
     }
 }
+
 
 struct OnboardingView_Previews: PreviewProvider {
     static var previews: some View {
