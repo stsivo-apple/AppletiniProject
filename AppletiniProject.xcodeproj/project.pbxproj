@@ -16,7 +16,8 @@
 		7BA13F2429018E2E0021087F /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA13F2329018E2E0021087F /* Song.swift */; };
 		7BA13F2629019F0E0021087F /* SongColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA13F2529019F0E0021087F /* SongColor.swift */; };
 		7BA13F302901BA3B0021087F /* ButtonsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA13F2F2901BA3B0021087F /* ButtonsRowView.swift */; };
-		FA7F315A29044BCC007E20F7 /* playSoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F315929044BCC007E20F7 /* playSoundView.swift */; };
+		7BD455DE290856C5004CF266 /* MusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD455DD290856C5004CF266 /* MusicView.swift */; };
+		7BD455E329089232004CF266 /* Du Hast.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7BD455E229089232004CF266 /* Du Hast.mp3 */; };
 		FA7F31632905E022007E20F7 /* Never Gonna Give You Up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7F31622905E022007E20F7 /* Never Gonna Give You Up.mp3 */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +32,8 @@
 		7BA13F2329018E2E0021087F /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		7BA13F2529019F0E0021087F /* SongColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongColor.swift; sourceTree = "<group>"; };
 		7BA13F2F2901BA3B0021087F /* ButtonsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsRowView.swift; sourceTree = "<group>"; };
-		FA7F315929044BCC007E20F7 /* playSoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = playSoundView.swift; sourceTree = "<group>"; };
+		7BD455DD290856C5004CF266 /* MusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicView.swift; sourceTree = "<group>"; };
+		7BD455E229089232004CF266 /* Du Hast.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Du Hast.mp3"; path = "../../../../Downloads/Du Hast.mp3"; sourceTree = "<group>"; };
 		FA7F31622905E022007E20F7 /* Never Gonna Give You Up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Never Gonna Give You Up.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,6 +67,7 @@
 		7BA13F1029015ADA0021087F /* AppletiniProject */ = {
 			isa = PBXGroup;
 			children = (
+				7BD455E229089232004CF266 /* Du Hast.mp3 */,
 				FA7F31622905E022007E20F7 /* Never Gonna Give You Up.mp3 */,
 				7BA13F2C2901B4F00021087F /* Controller */,
 				7BA13F2029018DD30021087F /* Views */,
@@ -96,11 +99,11 @@
 		7BA13F2029018DD30021087F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FA7F315929044BCC007E20F7 /* playSoundView.swift */,
 				7BA13F2129018E130021087F /* FeaturedSongCard.swift */,
 				7BA13F1329015ADA0021087F /* ContentView.swift */,
 				7BA13F2F2901BA3B0021087F /* ButtonsRowView.swift */,
 				7B8B14EF2906E6F400E8767B /* OnboardingView.swift */,
+				7BD455DD290856C5004CF266 /* MusicView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 			files = (
 				7BA13F1929015ADB0021087F /* Preview Assets.xcassets in Resources */,
 				7BA13F1629015ADB0021087F /* Assets.xcassets in Resources */,
+				7BD455E329089232004CF266 /* Du Hast.mp3 in Resources */,
 				FA7F31632905E022007E20F7 /* Never Gonna Give You Up.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -183,10 +187,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA7F315A29044BCC007E20F7 /* playSoundView.swift in Sources */,
 				7BA13F302901BA3B0021087F /* ButtonsRowView.swift in Sources */,
 				7BA13F2429018E2E0021087F /* Song.swift in Sources */,
 				7BA13F1429015ADA0021087F /* ContentView.swift in Sources */,
+				7BD455DE290856C5004CF266 /* MusicView.swift in Sources */,
 				7BA13F2629019F0E0021087F /* SongColor.swift in Sources */,
 				7B8B14F02906E6F400E8767B /* OnboardingView.swift in Sources */,
 				7BA13F2229018E130021087F /* FeaturedSongCard.swift in Sources */,

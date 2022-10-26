@@ -32,15 +32,18 @@ struct ContentView: View {
                 ScrollView(.horizontal, showsIndicators: false){
                     HStack(spacing: 20){
                         ForEach(songs) { song in
-                            FeaturedSongCard(song: song)
-                                .frame(height: 210)
+                            NavigationLink(destination: MusicView(song: song)) {
+                                    FeaturedSongCard(song: song)
+                                    .frame(height: 210)
+                                
+                            }
                         }
                     }
                     .padding(.horizontal)
                 }
                 .navigationTitle("Hello " + (UserDefaults.standard.string(forKey: "username") ?? "User"))
             }
-        }
+        }.accentColor(.black)
         /*.fullScreenCover(isPresented: $shouldShowOnboarding, content: {
             OnboardingView(shouldShowOnboarding: $shouldShowOnboarding)
         })*/
