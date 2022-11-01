@@ -37,13 +37,15 @@ struct OnboardingView: View {
 //                shouldShowOnboarding: $shouldShowOnboarding
 //            )
             
-            PageView(
+            /*PageView(
                 title: "Welcome!",
                 subtitle: "What's your name?",
                 imageName: "house",
                 showDismissButton: true,
                 shouldShowOnboarding: $shouldShowOnboarding
-            )
+            )*/
+            
+            OnboardingView1(isShowed: $shouldShowOnboarding)
         }.tabViewStyle(PageTabViewStyle())
         
     }

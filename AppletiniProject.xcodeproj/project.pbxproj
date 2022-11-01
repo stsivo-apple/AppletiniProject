@@ -17,24 +17,28 @@
 		7BA13F2629019F0E0021087F /* SongColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA13F2529019F0E0021087F /* SongColor.swift */; };
 		7BA13F302901BA3B0021087F /* ButtonsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA13F2F2901BA3B0021087F /* ButtonsRowView.swift */; };
 		7BB22ABE290A6FA600512325 /* ScrollingStackModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB22ABD290A6FA600512325 /* ScrollingStackModifier.swift */; };
-		7BB22AC0290A887900512325 /* Blinding Lights.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7BB22ABF290A887900512325 /* Blinding Lights.mp3 */; };
-		7BB22AC4290A8AB900512325 /* Wake Me Up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7BB22AC3290A8AB900512325 /* Wake Me Up.mp3 */; };
-		7BB22AC6290A8B8600512325 /* Happy Now.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7BB22AC5290A8B8600512325 /* Happy Now.mp3 */; };
 		7BB22AC8290BD3A300512325 /* SongCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB22AC7290BD3A300512325 /* SongCardView.swift */; };
 		7BB22ACA290BDC4B00512325 /* SongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB22AC9290BDC4B00512325 /* SongView.swift */; };
-		7BB22AD1290ED6CC00512325 /* Taking A Walk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7BB22AD0290ED6CC00512325 /* Taking A Walk.mp3 */; };
-		7BB22AD5290ED97F00512325 /* Reputation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7BB22AD4290ED97F00512325 /* Reputation.mp3 */; };
-		7BB22AD9290EDC5500512325 /* As You Are.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7BB22AD8290EDC5500512325 /* As You Are.mp3 */; };
-		7BB22ADB290F126800512325 /* Glimpse of Us.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7BB22ADA290F126800512325 /* Glimpse of Us.mp3 */; };
-		7BB22ADD290F12CE00512325 /* E.T.A..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7BB22ADC290F12CE00512325 /* E.T.A..mp3 */; };
-		7BB22ADF290F133800512325 /* Heart to Heart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7BB22ADE290F133800512325 /* Heart to Heart.mp3 */; };
-		7BB22AE1290F148D00512325 /* 7 Days.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7BB22AE0290F148D00512325 /* 7 Days.mp3 */; };
 		7BD455DE290856C5004CF266 /* MusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD455DD290856C5004CF266 /* MusicView.swift */; };
-		7BD455E329089232004CF266 /* Du Hast.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7BD455E229089232004CF266 /* Du Hast.mp3 */; };
-		7BD455E629093ADB004CF266 /* Hold On We're Going Home.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7BD455E429093ADB004CF266 /* Hold On We're Going Home.mp3 */; };
-		7BD455E729093ADB004CF266 /* Out of Time.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7BD455E529093ADB004CF266 /* Out of Time.mp3 */; };
 		7BD455ED2909460E004CF266 /* MusicCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD455EC2909460E004CF266 /* MusicCardView.swift */; };
-		FA7F31632905E022007E20F7 /* Never Gonna Give You Up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7F31622905E022007E20F7 /* Never Gonna Give You Up.mp3 */; };
+		FA367FC22911AC9800DE17DE /* OnBoarding1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA367FC12911AC9800DE17DE /* OnBoarding1.swift */; };
+		FA367FF32911C41500DE17DE /* Yuumi, the Magical Cat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA367FE32911C41200DE17DE /* Yuumi, the Magical Cat.mp3 */; };
+		FA367FF42911C41500DE17DE /* Mochi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA367FE42911C41200DE17DE /* Mochi.mp3 */; };
+		FA367FF52911C41500DE17DE /* Demacia Rising.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA367FE52911C41200DE17DE /* Demacia Rising.mp3 */; };
+		FA367FF62911C41500DE17DE /* Sett, The Boss.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA367FE62911C41300DE17DE /* Sett, The Boss.mp3 */; };
+		FA367FF72911C41500DE17DE /* PROJECT Yi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA367FE72911C41300DE17DE /* PROJECT Yi.mp3 */; };
+		FA367FF82911C41500DE17DE /* Lunar Beasts.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA367FE82911C41300DE17DE /* Lunar Beasts.mp3 */; };
+		FA367FF92911C41500DE17DE /* Seraphine, The Starry-Eyed Songstress.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA367FE92911C41300DE17DE /* Seraphine, The Starry-Eyed Songstress.mp3 */; };
+		FA367FFA2911C41500DE17DE /* Burning Bright.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA367FEA2911C41300DE17DE /* Burning Bright.mp3 */; };
+		FA367FFB2911C41500DE17DE /* Home Is Where My Heart Is.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA367FEB2911C41300DE17DE /* Home Is Where My Heart Is.mp3 */; };
+		FA367FFC2911C41500DE17DE /* Lost Chapter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA367FEC2911C41400DE17DE /* Lost Chapter.mp3 */; };
+		FA367FFD2911C41500DE17DE /* Welcome to Planet Urf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA367FED2911C41400DE17DE /* Welcome to Planet Urf.mp3 */; };
+		FA367FFE2911C41500DE17DE /* Worlds Collide.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA367FEE2911C41400DE17DE /* Worlds Collide.mp3 */; };
+		FA367FFF2911C41500DE17DE /* Get Jinxed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA367FEF2911C41400DE17DE /* Get Jinxed.mp3 */; };
+		FA3680002911C41500DE17DE /* Zoe, the Aspect of Twilight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA367FF02911C41400DE17DE /* Zoe, the Aspect of Twilight.mp3 */; };
+		FA3680012911C41500DE17DE /* Passengers..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA367FF12911C41400DE17DE /* Passengers..mp3 */; };
+		FA3680022911C41500DE17DE /* Ivern, the Green Father.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA367FF22911C41500DE17DE /* Ivern, the Green Father.mp3 */; };
+		FA3680052911CA9F00DE17DE /* SwiftUITooltip in Frameworks */ = {isa = PBXBuildFile; productRef = FA3680042911CA9F00DE17DE /* SwiftUITooltip */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,25 +53,28 @@
 		7BA13F2529019F0E0021087F /* SongColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongColor.swift; sourceTree = "<group>"; };
 		7BA13F2F2901BA3B0021087F /* ButtonsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsRowView.swift; sourceTree = "<group>"; };
 		7BB22ABD290A6FA600512325 /* ScrollingStackModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingStackModifier.swift; sourceTree = "<group>"; };
-		7BB22ABF290A887900512325 /* Blinding Lights.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Blinding Lights.mp3"; path = "../../../../Downloads/Blinding Lights.mp3"; sourceTree = "<group>"; };
-		7BB22AC3290A8AB900512325 /* Wake Me Up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Wake Me Up.mp3"; path = "../../../../Downloads/Wake Me Up.mp3"; sourceTree = "<group>"; };
-		7BB22AC5290A8B8600512325 /* Happy Now.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Happy Now.mp3"; path = "../../../../Downloads/Happy Now.mp3"; sourceTree = "<group>"; };
 		7BB22AC7290BD3A300512325 /* SongCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongCardView.swift; sourceTree = "<group>"; };
 		7BB22AC9290BDC4B00512325 /* SongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongView.swift; sourceTree = "<group>"; };
 		7BB22ACB290D5BB500512325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		7BB22AD0290ED6CC00512325 /* Taking A Walk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Taking A Walk.mp3"; path = "../../../../Downloads/Taking A Walk.mp3"; sourceTree = "<group>"; };
-		7BB22AD4290ED97F00512325 /* Reputation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Reputation.mp3; path = ../../../../Downloads/Reputation.mp3; sourceTree = "<group>"; };
-		7BB22AD8290EDC5500512325 /* As You Are.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "As You Are.mp3"; path = "../../../../Downloads/As You Are.mp3"; sourceTree = "<group>"; };
-		7BB22ADA290F126800512325 /* Glimpse of Us.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Glimpse of Us.mp3"; path = "../../../../Downloads/Glimpse of Us.mp3"; sourceTree = "<group>"; };
-		7BB22ADC290F12CE00512325 /* E.T.A..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = E.T.A..mp3; path = ../../../../Downloads/E.T.A..mp3; sourceTree = "<group>"; };
-		7BB22ADE290F133800512325 /* Heart to Heart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Heart to Heart.mp3"; path = "../../../../Downloads/Heart to Heart.mp3"; sourceTree = "<group>"; };
-		7BB22AE0290F148D00512325 /* 7 Days.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "7 Days.mp3"; path = "../../../../Downloads/7 Days.mp3"; sourceTree = "<group>"; };
 		7BD455DD290856C5004CF266 /* MusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicView.swift; sourceTree = "<group>"; };
-		7BD455E229089232004CF266 /* Du Hast.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Du Hast.mp3"; path = "../../../../Downloads/Du Hast.mp3"; sourceTree = "<group>"; };
-		7BD455E429093ADB004CF266 /* Hold On We're Going Home.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Hold On We're Going Home.mp3"; path = "../../../../Downloads/Hold On We're Going Home.mp3"; sourceTree = "<group>"; };
-		7BD455E529093ADB004CF266 /* Out of Time.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Out of Time.mp3"; path = "../../../../Downloads/Out of Time.mp3"; sourceTree = "<group>"; };
 		7BD455EC2909460E004CF266 /* MusicCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCardView.swift; sourceTree = "<group>"; };
-		FA7F31622905E022007E20F7 /* Never Gonna Give You Up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Never Gonna Give You Up.mp3"; sourceTree = "<group>"; };
+		FA367FC12911AC9800DE17DE /* OnBoarding1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding1.swift; sourceTree = "<group>"; };
+		FA367FE32911C41200DE17DE /* Yuumi, the Magical Cat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Yuumi, the Magical Cat.mp3"; sourceTree = "<group>"; };
+		FA367FE42911C41200DE17DE /* Mochi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Mochi.mp3; sourceTree = "<group>"; };
+		FA367FE52911C41200DE17DE /* Demacia Rising.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Demacia Rising.mp3"; sourceTree = "<group>"; };
+		FA367FE62911C41300DE17DE /* Sett, The Boss.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sett, The Boss.mp3"; sourceTree = "<group>"; };
+		FA367FE72911C41300DE17DE /* PROJECT Yi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "PROJECT Yi.mp3"; sourceTree = "<group>"; };
+		FA367FE82911C41300DE17DE /* Lunar Beasts.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lunar Beasts.mp3"; sourceTree = "<group>"; };
+		FA367FE92911C41300DE17DE /* Seraphine, The Starry-Eyed Songstress.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Seraphine, The Starry-Eyed Songstress.mp3"; sourceTree = "<group>"; };
+		FA367FEA2911C41300DE17DE /* Burning Bright.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Burning Bright.mp3"; sourceTree = "<group>"; };
+		FA367FEB2911C41300DE17DE /* Home Is Where My Heart Is.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Home Is Where My Heart Is.mp3"; sourceTree = "<group>"; };
+		FA367FEC2911C41400DE17DE /* Lost Chapter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Lost Chapter.mp3"; sourceTree = "<group>"; };
+		FA367FED2911C41400DE17DE /* Welcome to Planet Urf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Welcome to Planet Urf.mp3"; sourceTree = "<group>"; };
+		FA367FEE2911C41400DE17DE /* Worlds Collide.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Worlds Collide.mp3"; sourceTree = "<group>"; };
+		FA367FEF2911C41400DE17DE /* Get Jinxed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Get Jinxed.mp3"; sourceTree = "<group>"; };
+		FA367FF02911C41400DE17DE /* Zoe, the Aspect of Twilight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Zoe, the Aspect of Twilight.mp3"; sourceTree = "<group>"; };
+		FA367FF12911C41400DE17DE /* Passengers..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Passengers..mp3; sourceTree = "<group>"; };
+		FA367FF22911C41500DE17DE /* Ivern, the Green Father.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ivern, the Green Father.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA3680052911CA9F00DE17DE /* SwiftUITooltip in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,20 +109,22 @@
 			isa = PBXGroup;
 			children = (
 				7BB22ACB290D5BB500512325 /* Info.plist */,
-				7BB22AD4290ED97F00512325 /* Reputation.mp3 */,
-				7BB22ADC290F12CE00512325 /* E.T.A..mp3 */,
-				7BB22ADE290F133800512325 /* Heart to Heart.mp3 */,
-				7BB22ADA290F126800512325 /* Glimpse of Us.mp3 */,
-				7BB22AD0290ED6CC00512325 /* Taking A Walk.mp3 */,
-				7BB22AE0290F148D00512325 /* 7 Days.mp3 */,
-				7BB22AD8290EDC5500512325 /* As You Are.mp3 */,
-				7BB22AC5290A8B8600512325 /* Happy Now.mp3 */,
-				7BB22AC3290A8AB900512325 /* Wake Me Up.mp3 */,
-				7BB22ABF290A887900512325 /* Blinding Lights.mp3 */,
-				7BD455E429093ADB004CF266 /* Hold On We're Going Home.mp3 */,
-				7BD455E529093ADB004CF266 /* Out of Time.mp3 */,
-				7BD455E229089232004CF266 /* Du Hast.mp3 */,
-				FA7F31622905E022007E20F7 /* Never Gonna Give You Up.mp3 */,
+				FA367FEA2911C41300DE17DE /* Burning Bright.mp3 */,
+				FA367FE52911C41200DE17DE /* Demacia Rising.mp3 */,
+				FA367FEF2911C41400DE17DE /* Get Jinxed.mp3 */,
+				FA367FEB2911C41300DE17DE /* Home Is Where My Heart Is.mp3 */,
+				FA367FF22911C41500DE17DE /* Ivern, the Green Father.mp3 */,
+				FA367FEC2911C41400DE17DE /* Lost Chapter.mp3 */,
+				FA367FE82911C41300DE17DE /* Lunar Beasts.mp3 */,
+				FA367FE42911C41200DE17DE /* Mochi.mp3 */,
+				FA367FF12911C41400DE17DE /* Passengers..mp3 */,
+				FA367FE72911C41300DE17DE /* PROJECT Yi.mp3 */,
+				FA367FE92911C41300DE17DE /* Seraphine, The Starry-Eyed Songstress.mp3 */,
+				FA367FE62911C41300DE17DE /* Sett, The Boss.mp3 */,
+				FA367FED2911C41400DE17DE /* Welcome to Planet Urf.mp3 */,
+				FA367FEE2911C41400DE17DE /* Worlds Collide.mp3 */,
+				FA367FE32911C41200DE17DE /* Yuumi, the Magical Cat.mp3 */,
+				FA367FF02911C41400DE17DE /* Zoe, the Aspect of Twilight.mp3 */,
 				7BA13F2C2901B4F00021087F /* Controller */,
 				7BA13F2029018DD30021087F /* Views */,
 				7BA13F1F29018DCB0021087F /* Models */,
@@ -153,6 +163,7 @@
 				7BD455EC2909460E004CF266 /* MusicCardView.swift */,
 				7BB22AC7290BD3A300512325 /* SongCardView.swift */,
 				7BB22AC9290BDC4B00512325 /* SongView.swift */,
+				FA367FC12911AC9800DE17DE /* OnBoarding1.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -181,6 +192,9 @@
 			dependencies = (
 			);
 			name = AppletiniProject;
+			packageProductDependencies = (
+				FA3680042911CA9F00DE17DE /* SwiftUITooltip */,
+			);
 			productName = AppletiniProject;
 			productReference = 7BA13F0E29015ADA0021087F /* AppletiniProject.app */;
 			productType = "com.apple.product-type.application";
@@ -209,6 +223,9 @@
 				Base,
 			);
 			mainGroup = 7BA13F0529015ADA0021087F;
+			packageReferences = (
+				FA3680032911CA9F00DE17DE /* XCRemoteSwiftPackageReference "SwiftUI-Tooltip" */,
+			);
 			productRefGroup = 7BA13F0F29015ADA0021087F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -223,22 +240,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BB22AE1290F148D00512325 /* 7 Days.mp3 in Resources */,
-				7BB22ADD290F12CE00512325 /* E.T.A..mp3 in Resources */,
+				FA367FFE2911C41500DE17DE /* Worlds Collide.mp3 in Resources */,
+				FA3680002911C41500DE17DE /* Zoe, the Aspect of Twilight.mp3 in Resources */,
+				FA367FF52911C41500DE17DE /* Demacia Rising.mp3 in Resources */,
+				FA367FFA2911C41500DE17DE /* Burning Bright.mp3 in Resources */,
 				7BA13F1929015ADB0021087F /* Preview Assets.xcassets in Resources */,
-				7BB22ADF290F133800512325 /* Heart to Heart.mp3 in Resources */,
-				7BB22AD9290EDC5500512325 /* As You Are.mp3 in Resources */,
-				7BB22AC6290A8B8600512325 /* Happy Now.mp3 in Resources */,
-				7BB22AC0290A887900512325 /* Blinding Lights.mp3 in Resources */,
-				7BD455E729093ADB004CF266 /* Out of Time.mp3 in Resources */,
-				7BB22ADB290F126800512325 /* Glimpse of Us.mp3 in Resources */,
-				7BB22AC4290A8AB900512325 /* Wake Me Up.mp3 in Resources */,
+				FA3680022911C41500DE17DE /* Ivern, the Green Father.mp3 in Resources */,
+				FA367FF72911C41500DE17DE /* PROJECT Yi.mp3 in Resources */,
+				FA367FF92911C41500DE17DE /* Seraphine, The Starry-Eyed Songstress.mp3 in Resources */,
+				FA367FF82911C41500DE17DE /* Lunar Beasts.mp3 in Resources */,
+				FA367FF32911C41500DE17DE /* Yuumi, the Magical Cat.mp3 in Resources */,
 				7BA13F1629015ADB0021087F /* Assets.xcassets in Resources */,
-				7BB22AD1290ED6CC00512325 /* Taking A Walk.mp3 in Resources */,
-				7BD455E329089232004CF266 /* Du Hast.mp3 in Resources */,
-				7BB22AD5290ED97F00512325 /* Reputation.mp3 in Resources */,
-				FA7F31632905E022007E20F7 /* Never Gonna Give You Up.mp3 in Resources */,
-				7BD455E629093ADB004CF266 /* Hold On We're Going Home.mp3 in Resources */,
+				FA3680012911C41500DE17DE /* Passengers..mp3 in Resources */,
+				FA367FFB2911C41500DE17DE /* Home Is Where My Heart Is.mp3 in Resources */,
+				FA367FFC2911C41500DE17DE /* Lost Chapter.mp3 in Resources */,
+				FA367FF62911C41500DE17DE /* Sett, The Boss.mp3 in Resources */,
+				FA367FF42911C41500DE17DE /* Mochi.mp3 in Resources */,
+				FA367FFD2911C41500DE17DE /* Welcome to Planet Urf.mp3 in Resources */,
+				FA367FFF2911C41500DE17DE /* Get Jinxed.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +277,7 @@
 				7BD455ED2909460E004CF266 /* MusicCardView.swift in Sources */,
 				7BA13F2629019F0E0021087F /* SongColor.swift in Sources */,
 				7B8B14F02906E6F400E8767B /* OnboardingView.swift in Sources */,
+				FA367FC22911AC9800DE17DE /* OnBoarding1.swift in Sources */,
 				7BB22ABE290A6FA600512325 /* ScrollingStackModifier.swift in Sources */,
 				7BA13F2229018E130021087F /* FeaturedSongCard.swift in Sources */,
 				7BA13F1229015ADA0021087F /* AppletiniProjectApp.swift in Sources */,
@@ -463,6 +483,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA3680032911CA9F00DE17DE /* XCRemoteSwiftPackageReference "SwiftUI-Tooltip" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/quassum/SwiftUI-Tooltip.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA3680042911CA9F00DE17DE /* SwiftUITooltip */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA3680032911CA9F00DE17DE /* XCRemoteSwiftPackageReference "SwiftUI-Tooltip" */;
+			productName = SwiftUITooltip;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7BA13F0629015ADA0021087F /* Project object */;
 }

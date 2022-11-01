@@ -157,9 +157,9 @@ struct SongView: View {
 struct SongView_Previews: PreviewProvider {
     static var previews: some View {
         SongView(isFeatured: false, songs: [
-            Song(title: "Never Gonna Give You Up", album: "Whenever You Need Somebody", artist: "Rick Astley", image: "wheneverYouNeedSomebody", songColor: Color(UIColor.systemYellow), songColorStr: "YELLOW"),
-            Song(title: "Du Hast", album: "Sehnsucht", artist: "Rammstein", image: "sehnsucht", songColor: Color(UIColor.darkGray), songColorStr: "BLACK"),
-            Song(title: "Out of Time", album: "Dawn FM", artist: "The Weeknd", image: "dawnFM", songColor: Color(UIColor.systemBlue), songColorStr: "BLUE")
+            Song(title: "Never Gonna Give You Up", album: "Whenever You Need Somebody", artist: "Rick Astley", image: "wheneverYouNeedSomebody", songColor: Color(UIColor.systemYellow), songColorStr: "YELLOW", infoQuotes: ""),
+            Song(title: "Du Hast", album: "Sehnsucht", artist: "Rammstein", image: "sehnsucht", songColor: Color(UIColor.darkGray), songColorStr: "BLACK", infoQuotes: ""),
+            Song(title: "Out of Time", album: "Dawn FM", artist: "The Weeknd", image: "dawnFM", songColor: Color(UIColor.systemBlue), songColorStr: "BLUE", infoQuotes: "")
         ])
         //MusicView( song: Song(title: "Du Hast", album: "Sehnsucht", artist: "Rammstein", image: "sehnsucht", songColor: Color(UIColor.darkGray), songColorStr: "BLACK"))
     }

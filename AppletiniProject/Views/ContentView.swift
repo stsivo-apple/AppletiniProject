@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftUITooltip
 
 struct ContentView: View {
     //@AppStorage("shouldShowOnboarding") var shouldShowOnboarding:Bool = true
@@ -18,22 +19,42 @@ struct ContentView: View {
     
     @State var isFeatured: Bool = false
     
+    @State var tooltipVisible = false
+    
     var body: some View {
         NavigationStack{
             VStack(alignment: .leading, spacing: 1){
-                Text("Paths")
-                .bold()
-                .font(.title)
-                .multilineTextAlignment(.leading)
-                .padding([.leading, .bottom])
-                
+               
+                HStack{
+                    
+                    Text("Paths")
+                        .bold()
+                        .font(.title)
+                        .multilineTextAlignment(.leading)
+                        .padding([.leading, .bottom])
+                    
+                }
                 ButtonsRowView()
                 .frame(height: 320)
-                Text("Featured songs")
-                .bold()
-                .font(.title)
-                .multilineTextAlignment(.leading)
-                .padding()
+                
+                HStack{
+                    
+                    Text("Featured songs")
+                        .bold()
+                        .font(.title)
+                        .multilineTextAlignment(.leading)
+                        .padding()
+                    
+                    
+                    Button {
+                                self.tooltipVisible = !self.tooltipVisible
+                                    } label: {
+                                        Image(systemName: "info.circle.fill").foregroundColor(.black)
+                                    }.popover(isPresented: $tooltipVisible){Text("All the music inside the application \nare property of Riot Games")}
+                    
+                    
+                    
+                }
                 
                 ScrollView(.horizontal, showsIndicators: false){
                     HStack(spacing: 20){
@@ -54,7 +75,7 @@ struct ContentView: View {
                     .padding(.horizontal)
                     
                 }
-                .navigationTitle("Hello " + (UserDefaults.standard.string(forKey: "username") ?? "User"))
+                .navigationTitle("Hello " + (UserDefaults.standard.string(forKey: "userName") ?? "User"))
             }
         }
         .accentColor(.black)

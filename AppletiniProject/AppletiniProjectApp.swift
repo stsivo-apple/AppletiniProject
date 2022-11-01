@@ -9,15 +9,21 @@ import SwiftUI
 
 @main
 struct AppletiniProjectApp: App {
-    @State var shouldShowOnboarding:Bool = true
+    @State var shouldShowOnboarding:Bool = false
     //@AppStorage("shouldShowOnboarding") var shouldShowOnboarding:Bool = true
     
     var body: some Scene {
         WindowGroup {
-            if shouldShowOnboarding{
-                OnboardingView(shouldShowOnboarding: $shouldShowOnboarding)
-            } else {
-                ContentView()
+            
+            VStack{
+                if shouldShowOnboarding{
+                    OnboardingView(shouldShowOnboarding: $shouldShowOnboarding)
+                } else {
+                    ContentView()
+                }
+            } .onAppear(){
+                
+                shouldShowOnboarding = UserDefaults.standard.string(forKey: "userName") == nil
             }
         }
     }

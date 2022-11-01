@@ -15,6 +15,7 @@ struct Song: Identifiable{
     var image: String
     var songColor: Color
     var songColorStr: String
+    var infoQuotes: String
     
     let id = UUID()
     
@@ -31,28 +32,28 @@ struct Song: Identifiable{
     
     static func getFeaturedSongs() -> [Song] {
         return [
-            Song(title: "Never Gonna Give You Up", album: "Whenever You Need Somebody", artist: "Rick Astley", image: "wheneverYouNeedSomebody", songColor: Color(UIColor.systemYellow), songColorStr: "YELLOW"),
-            Song(title: "Du Hast", album: "Sehnsucht", artist: "Rammstein", image: "sehnsucht", songColor: Color(UIColor.darkGray), songColorStr: "BLACK"),
-            Song(title: "Taking A Walk", album: "Life's A Trip", artist: "Trippie Redd", image: "lifesATrip", songColor: Color(UIColor.systemBlue), songColorStr: "BLUE"),
-            Song(title: "Hold On We're Going Home", album: "Nothing Was the Same", artist: "Drake", image: "nothingWasTheSame", songColor: Color(UIColor.systemBlue), songColorStr: "BLUE"),
-            Song(title: "Out of Time", album: "Dawn FM", artist: "The Weeknd", image: "dawnFM", songColor: Color(UIColor.systemBlue), songColorStr: "BLUE")
+            Song(title: "Never Gonna Give You Up", album: "Whenever You Need Somebody", artist: "Rick Astley", image: "wheneverYouNeedSomebody", songColor: Color(UIColor.systemYellow), songColorStr: "YELLOW", infoQuotes: "This song is simple, safe, filled with energy and to bring a smile to your face. And it is everything that pop culture is all about"),
+            Song(title: "Lunar Beasts", album: "Sehnsucht", artist: "Rammstein", image: "sehnsucht", songColor: Color(UIColor.darkGray), songColorStr: "BLACK", infoQuotes: "Be your own boss and start working out on that bench"),
+            Song(title: "Taking A Walk", album: "Life's A Trip", artist: "Trippie Redd", image: "lifesATrip", songColor: Color(UIColor.systemBlue), songColorStr: "BLUE", infoQuotes: ""),
+            Song(title: "Hold On We're Going Home", album: "Nothing Was the Same", artist: "Drake", image: "nothingWasTheSame", songColor: Color(UIColor.systemBlue), songColorStr: "BLUE", infoQuotes: ""),
+            Song(title: "Zoe, the Aspect of Twilight", album: "League of Legends", artist: "League of Legends", image: "lol3", songColor: Color(UIColor.systemBlue), songColorStr: "BLUE", infoQuotes: "An almost fairy-tale melody that lets you enter a relaxing and peaceful world")
         ]
     }
     
     static func getBlueSongs() -> [Song] {
         return [
-            Song(title: "Taking A Walk", album: "Life's A Trip", artist: "Trippie Redd", image: "lifesATrip", songColor: Color(UIColor.systemBlue), songColorStr: "BLUE"),
-            Song(title: "Hold On We're Going Home", album: "Nothing Was the Same", artist: "Drake", image: "nothingWasTheSame", songColor: Color(UIColor.systemBlue), songColorStr: "BLUE"),
-            Song(title: "Out of Time", album: "Dawn FM", artist: "The Weeknd", image: "dawnFM", songColor: Color(UIColor.systemBlue), songColorStr: "BLUE")
+            Song(title: "Seraphine, The Starry-Eyed Songstress", album: "League of Legends", artist: "League of Legends", image: "lol6", songColor: Color(UIColor.systemBlue), songColorStr: "BLUE", infoQuotes: "Let yourself be lulled by the relaxed voice that allows you to put your thoughts in order"),
+            Song(title: "Ivern, the Green Father", album: "Nothing Was the Same", artist: "League of Legends", image: "lol5", songColor: Color(UIColor.systemBlue), songColorStr: "BLUE", infoQuotes: "A melody capable of letting you immerse yourself in the green of the forests and in the middle of the chirping of the birds"),
+            Song(title: "Passengers", album: "League of Legends", artist: "League of Legends", image: "lol3", songColor: Color(UIColor.systemBlue), songColorStr: "BLUE", infoQuotes: "Relax while listening to a mix of city noises in lo-fi sauce")
         ]
     }
 
     static func getYellowSongs() -> [Song] {
         return [
-            Song(title: "Never Gonna Give You Up", album: "Whenever You Need Somebody", artist: "Rick Astley", image: "wheneverYouNeedSomebody", songColor: Color(UIColor.systemYellow), songColorStr: "YELLOW"),
-            Song(title: "Blinding Lights", album: "After Hours", artist: "The Weeknd", image: "afterHours", songColor: Color(UIColor.systemYellow), songColorStr: "YELLOW"),
-            Song(title: "Wake Me Up", album: "True", artist: "Avicii", image: "true", songColor: Color(UIColor.systemYellow), songColorStr: "YELLOW"),
-            Song(title: "Happy Now", album: "Happy Now", artist: "Kygo", image: "happyNow", songColor: Color(UIColor.systemYellow), songColorStr: "YELLOW")
+            Song(title: "Never Gonna Give You Up", album: "League of Legends", artist: "Rick Astley", image: "wheneverYouNeedSomebody", songColor: Color(UIColor.systemYellow), songColorStr: "YELLOW", infoQuotes: "This song is simple, safe, filled with energy and to bring a smile to your face. And it is everything that pop culture is all about"),
+            Song(title: "Yuumi, the Magical Cat", album: "League of Legends", artist: "League of Legends", image: "lol8", songColor: Color(UIColor.systemYellow), songColorStr: "YELLOW", infoQuotes: "Let yourself be enveloped by magic and begin to fly in your thoughts"),
+            Song(title: "Mochi", album: "League of Legends", artist: "League of Legends", image: "lol3", songColor: Color(UIColor.systemYellow), songColorStr: "YELLOW", infoQuotes: "Don’t you think this song reminds of something soft but also an explosion of flavor? Exactly a mochi"),
+            Song(title: "Home Is Where My Heart Is", album: "League of Legends", artist: "League of Legends", image: "lol5", songColor: Color(UIColor.systemYellow), songColorStr: "YELLOW", infoQuotes: "Start dancing around the house while you play your invisible drums vibing on this song")
         ]
     }
     
@@ -62,19 +63,19 @@ struct Song: Identifiable{
     
     static func getBlackSongs() -> [Song] {
         return [
-            Song(title: "Du Hast", album: "Sehnsucht", artist: "Rammstein", image: "sehnsucht", songColor: Color(UIColor.darkGray), songColorStr: "BLACK"),
-            Song(title: "Reputation", album: "Twelve Carat Toothache", artist: "Post Malone", image: "twelveCaratToothache", songColor: Color(UIColor.darkGray), songColorStr: "BLACK"),
-            Song(title: "As You Are", album: "Beauty Behind The Madness", artist: "The Weeknd", image: "beautyBehindTheMadness", songColor: Color(UIColor.darkGray), songColorStr: "BLACK")
+            Song(title: "Lunar Beasts", album: "League of Legends", artist: "League of Legends", image: "lol8", songColor: Color(UIColor.darkGray), songColorStr: "BLACK", infoQuotes: "Be your own boss and start working out on that bench"),
+            Song(title: "Get Jinxed", album: "League of Legends", artist: "League of Legends", image: "lol5", songColor: Color(UIColor.darkGray), songColorStr: "BLACK", infoQuotes: "Start exterminating zombies and get carried away by the heat of this song"),
+            Song(title: "Demacia Rising", album: "League of Legends", artist: "League of Legends", image: "lol3", songColor: Color(UIColor.darkGray), songColorStr: "BLACK", infoQuotes: "Imagine yourself on a battlefield ready to fight for honor as you listen to this melody ")
         ]
     }
     
     static func getRedSongs() -> [Song] {
         return [
-            Song(title: "Glimpse of Us", album: "Glimpse of Us", artist: "Joji", image: "glimpseOfUs", songColor: Color(UIColor.red), songColorStr: "RED"),
-            Song(title: "Africa", album: "Toto IV", artist: "Toto", image: "totoIV", songColor: Color(UIColor.red), songColorStr: "RED"),
-            Song(title: "E.T.A.", album: "Changes", artist: "Justin Bieber", image: "changes", songColor: Color(UIColor.red), songColorStr: "RED"),
-            Song(title: "7 Days", album: "Born to Do It", artist: "Craig David", image: "bornToDoIt", songColor: Color(UIColor.red), songColorStr: "RED"),
-            Song(title: "Heart to Heart", album: "Moon Landing", artist: "James Blunt", image: "moonLanding", songColor: Color(UIColor.red), songColorStr: "RED")
+            Song(title: "Worlds Collide", album: "League of Legends", artist: "League of Legends", image: "lol3", songColor: Color(UIColor.red), songColorStr: "RED", infoQuotes: "Begins a strategic battle that will decide the fate of the universe. It all depends on you"),
+            Song(title: "Welcome to Planet Urf", album: "League of Legends", artist: "League of Legends", image: "totoIV", songColor: Color(UIColor.red), songColorStr: "RED", infoQuotes: "Feel the horns of victory ringing for your arrival? Go and prove what you are made of"),
+            Song(title: "Sett, The Boss", album: "League of Legends", artist: "League of Legends", image: "lol3", songColor: Color(UIColor.red), songColorStr: "RED", infoQuotes: "Be your own boss and start working out on that bench"),
+            Song(title: "PROJECT Yi", album: "League of Legends", artist: "League of Legends", image: "lol5", songColor: Color(UIColor.red), songColorStr: "RED", infoQuotes: " Imagine yourself chased into a steampunk city to the tune of this song"),
+            Song(title: "Lost Chapter", album: "League of Legends", artist: "Pentakill", image: "lol8", songColor: Color(UIColor.red), songColorStr: "RED", infoQuotes: "Do you miss the 2000s? Let nostalgia return and start to mosh")
         ]
     }
 }

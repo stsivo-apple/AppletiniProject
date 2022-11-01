@@ -11,7 +11,7 @@ import AVFoundation
 struct MusicCardView: View {
     
     @State var toggleRecordStop = "Record"
-    var caption:String = "This song is simple, safe, filled with energy and to bring a smile to your face. And it is everything that pop culture is all about"
+    
     @State var scaleBigger = 0.5
     @State var scaleMedium = 0.5
     @State var scaleSmaller = 0.5
@@ -118,7 +118,7 @@ struct MusicCardView: View {
                     }
                     .frame(width: 300, height: 120)
                     .overlay {
-                        Text("This song is simple, safe, filled with energy and to bring a smile to your face. And it is everything that pop culture is all about ")
+                        Text(song.infoQuotes)
                             .font(.body)
                             .multilineTextAlignment(.center)
                             .foregroundColor(.black)
@@ -155,6 +155,6 @@ struct MusicCardView: View {
 
 struct MusicCardView_Previews: PreviewProvider {
     static var previews: some View {
-        MusicCardView(song: Song(title: "Never Gonna Give You Up", album: "Whenever You Need Somebody", artist: "Rick Astley", image: "wheneverYouNeedSomebody", songColor: Color(UIColor.systemYellow), songColorStr: "YELLOW"))
+        MusicCardView(song: Song(title: "Never Gonna Give You Up", album: "Whenever You Need Somebody", artist: "Rick Astley", image: "wheneverYouNeedSomebody", songColor: Color(UIColor.systemYellow), songColorStr: "YELLOW", infoQuotes: ""))
     }
 }
