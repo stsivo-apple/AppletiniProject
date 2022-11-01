@@ -45,7 +45,7 @@ struct FeaturedSongCard: View {
             .frame(alignment: .top)
             .foregroundColor(song.songColor)
             .cornerRadius(3)
-            .padding(.bottom, 160)
+            .padding(.bottom, 150)
         )
         
     }
@@ -53,6 +53,6 @@ struct FeaturedSongCard: View {
 
 struct FeaturedSongCard_Previews: PreviewProvider {
     static var previews: some View {
-        FeaturedSongCard(song: Song(title: "Never Gonna Give You Up", album: "Whenever You Need Somebody", artist: "Rick Astley", image: "wheneverYouNeedSomebody", songColor: Color(UIColor.systemYellow)))
+        FeaturedSongCard(song: Song(title: "Never Gonna Give You Up", album: "Whenever You Need Somebody", artist: "Rick Astley", image: "wheneverYouNeedSomebody", songColor: Color(UIColor.systemYellow), songColorStr: "YELLOW"))
     }
 }
