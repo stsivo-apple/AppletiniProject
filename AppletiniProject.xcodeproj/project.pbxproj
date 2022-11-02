@@ -39,6 +39,7 @@
 		FA3680012911C41500DE17DE /* Passengers..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA367FF12911C41400DE17DE /* Passengers..mp3 */; };
 		FA3680022911C41500DE17DE /* Ivern, the Green Father.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA367FF22911C41500DE17DE /* Ivern, the Green Father.mp3 */; };
 		FA3680052911CA9F00DE17DE /* SwiftUITooltip in Frameworks */ = {isa = PBXBuildFile; productRef = FA3680042911CA9F00DE17DE /* SwiftUITooltip */; };
+		FA3680072911DFD200DE17DE /* Never Gonna Give You Up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA3680062911DFD200DE17DE /* Never Gonna Give You Up.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +76,7 @@
 		FA367FF02911C41400DE17DE /* Zoe, the Aspect of Twilight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Zoe, the Aspect of Twilight.mp3"; sourceTree = "<group>"; };
 		FA367FF12911C41400DE17DE /* Passengers..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Passengers..mp3; sourceTree = "<group>"; };
 		FA367FF22911C41500DE17DE /* Ivern, the Green Father.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ivern, the Green Father.mp3"; sourceTree = "<group>"; };
+		FA3680062911DFD200DE17DE /* Never Gonna Give You Up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Never Gonna Give You Up.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				FA367FEE2911C41400DE17DE /* Worlds Collide.mp3 */,
 				FA367FE32911C41200DE17DE /* Yuumi, the Magical Cat.mp3 */,
 				FA367FF02911C41400DE17DE /* Zoe, the Aspect of Twilight.mp3 */,
+				FA3680062911DFD200DE17DE /* Never Gonna Give You Up.mp3 */,
 				7BA13F2C2901B4F00021087F /* Controller */,
 				7BA13F2029018DD30021087F /* Views */,
 				7BA13F1F29018DCB0021087F /* Models */,
@@ -240,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA3680072911DFD200DE17DE /* Never Gonna Give You Up.mp3 in Resources */,
 				FA367FFE2911C41500DE17DE /* Worlds Collide.mp3 in Resources */,
 				FA3680002911C41500DE17DE /* Zoe, the Aspect of Twilight.mp3 in Resources */,
 				FA367FF52911C41500DE17DE /* Demacia Rising.mp3 in Resources */,
