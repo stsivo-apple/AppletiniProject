@@ -33,10 +33,9 @@ struct Song: Identifiable{
     static func getFeaturedSongs() -> [Song] {
         return [
             Song(title: "Never Gonna Give You Up", album: "Whenever You Need Somebody", artist: "Rick Astley", image: "wheneverYouNeedSomebody", songColor: Color(UIColor.systemYellow), songColorStr: "YELLOW", infoQuotes: "This song is simple, safe, filled with energy and to bring a smile to your face. And it is everything that pop culture is all about"),
-            Song(title: "Lunar Beasts", album: "League of Leagends", artist: "League of Leagends", image: "lol5", songColor: Color(UIColor.darkGray), songColorStr: "BLACK", infoQuotes: "Be your own boss and start working out on that bench"),
-            Song(title: "Taking A Walk", album: "Life's A Trip", artist: "Trippie Redd", image: "lifesATrip", songColor: Color(UIColor.systemBlue), songColorStr: "BLUE", infoQuotes: ""),
-            Song(title: "Hold On We're Going Home", album: "Nothing Was the Same", artist: "Drake", image: "nothingWasTheSame", songColor: Color(UIColor.systemBlue), songColorStr: "BLUE", infoQuotes: ""),
-            Song(title: "Zoe, the Aspect of Twilight", album: "League of Legends", artist: "League of Legends", image: "lol3", songColor: Color(UIColor.systemBlue), songColorStr: "BLUE", infoQuotes: "An almost fairy-tale melody that lets you enter a relaxing and peaceful world")
+            Song(title: "Worlds Collide", album: "League of Legends", artist: "League of Legends", image: "lol3", songColor: Color(UIColor.red), songColorStr: "RED", infoQuotes: "Begins a strategic battle that will decide the fate of the universe. It all depends on you"),
+            Song(title: "Demacia Rising", album: "League of Legends", artist: "League of Legends", image: "lol3", songColor: Color(UIColor.darkGray), songColorStr: "BLACK", infoQuotes: "Imagine yourself on a battlefield ready to fight for honor as you listen to this melody "),
+            Song(title: "PROJECT Yi", album: "League of Legends", artist: "League of Legends", image: "lol5", songColor: Color(UIColor.red), songColorStr: "RED", infoQuotes: " Imagine yourself chased into a steampunk city to the tune of this song")
         ]
     }
     

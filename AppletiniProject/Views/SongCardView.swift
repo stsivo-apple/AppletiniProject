@@ -138,6 +138,7 @@ struct SongCardView: View {
                 Text(song.infoQuotes)
                     .font(.body)
                     .multilineTextAlignment(.center)
+                    .frame(height: 100)
                     .foregroundColor(.black)
                     .padding()
             }
